@@ -2,7 +2,7 @@ import keyboard
 from time import sleep
 
 hotkeys = {
-    "command+y": "Example Hotkey"
+    "command+j": "Example Hotkey Pressed!",
 }
 
 def main():
@@ -13,7 +13,7 @@ def main():
     keyboard.add_hotkey("command+l", list_hotkeys)
 
     while True:
-        sleep(10)
+        sleep(42)
 
 def list_hotkeys():
 
